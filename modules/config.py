@@ -29,7 +29,7 @@ username = pwd.getpwuid(os.getuid())[0]
 dir_osmose = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # path to a temporary space, that doesn't need to be backup
-dir_work = "/data/work/%s" % (username)
+dir_work = "/arquivos/osmose/dados"
 
 # frontend which will get results
 url_frontend_update = "http://osmose.openstreetmap.fr/cgi-bin/update.py"
