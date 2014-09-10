@@ -34,11 +34,6 @@ dir_work = "/arquivos/osmose/dados"
 # frontend which will get results
 url_frontend_update = "http://osmose.openstreetmap.fr/cgi-bin/update.py"
 
-# where osm2pgsql is located
-bin_osm2pgsql = "/usr/bin/osm2pgsql"
-# if you don't have the "osm2pgsql" package installed:
-#bin_osm2pgsql = dir_osmose + "/osm2pgsql/osm2pgsql-squeeze"
-
 # where osmosis is located
 bin_osmosis = "/usr/bin/osmosis"
 # if you don't have the "osmosis" package installed:
