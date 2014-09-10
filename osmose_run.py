@@ -499,8 +499,8 @@ def run(conf, logger, options):
         logger.log(logger.log_av_r+u"error in database initialisation"+logger.log_ap)
         return 0x10
 
-    if not os.path.exists(config.dir_tmp):
-        os.makedirs(config.dir_tmp)
+    if not os.path.exists(conf.dir_tmp):
+        os.makedirs(conf.dir_tmp)
 
     # variable used by osmosis
     os.environ["JAVACMD_OPTIONS"] = "-Xms2048M -Xmx2048M -XX:MaxPermSize=2048M -Djava.io.tmpdir="+conf.dir_tmp
