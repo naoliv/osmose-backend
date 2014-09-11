@@ -552,8 +552,8 @@ def run(conf, logger, options):
         elif not conf.results_url:
             logger.sub().log("results_url is not correct - won't upload to %s" % conf.updt_url)
 
-        if not os.path.exists(config.dir_results):
-            os.makedirs(config.dir_results)
+        if not os.path.exists(conf.dir_results):
+            os.makedirs(conf.dir_results)
 
         try:
             analyser_conf = analyser_config()
